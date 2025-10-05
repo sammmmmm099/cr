@@ -7,14 +7,14 @@ Email = "" #Your email here
 Password = "" #Your password here
 
 # --- Telegram Settings ---
-API_ID = 12345  # Replace with your API ID
-API_HASH = "" # Replace with your API Hash
-BOT_TOKEN = "" # Replace with your Bot Token
+API_ID = 29577103   # Replace with your API ID
+API_HASH = "f03ed7999b31b20920afb08761774c34" # Replace with your API Hash
+BOT_TOKEN = "8089421489:AAGioRvJ8X_NSFd-7qF8iL-Q7R3cTIcdMIU" # Replace with your Bot Token
 
 # --- User Management & Limits ---
-sudo_users = [] # List of sudo user IDs (as integers)
-premium_users = [] # List of premium user IDs (as integers)
-AUTHORIZED_USERS = [] # List of authorized user IDs to use bot in private (as integers)
+sudo_users = [8107502439] # List of sudo user IDs (as integers)
+premium_users = [8107502439] # List of premium user IDs (as integers)
+AUTHORIZED_USERS = [8107502439] # List of authorized user IDs to use bot in private (as integers)
 
 # Limits for regular users
 REGULAR_USER_AUDIO_LIMIT = 2
@@ -38,7 +38,7 @@ use_proxy = False # Set to True to use a proxy
 proxy = "" # Proxy URL (e.g., "http://username:password@proxyserver:port")
 
 # watermark settings
-Watermark_Name = "ToonTamilIndia" # Your watermark name here
+Watermark_Name = "anime" # Your watermark name here
 fontfile = "font.ttf" # Font file path
 fontcolor = "white" # Font color
 opaque = "0.4" # opposite of transparency, 0.0 is fully transparent and 1.0 is fully opaque
@@ -263,4 +263,5 @@ LANGUAGE_NAME_TO_ISO639_2B = {
     "Yiddish": "yid",
     "Yoruba": "yor",
     "Zulu": "zul"
+
 }
